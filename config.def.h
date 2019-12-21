@@ -84,6 +84,7 @@ static Key keys[] = {
 	{ MODKEY,                       XK_period, focusmon,       {.i = +1 } },
 	{ MODKEY|ShiftMask,             XK_comma,  tagmon,         {.i = -1 } },
 	{ MODKEY|ShiftMask,             XK_period, tagmon,         {.i = +1 } },
+<<<<<<< Updated upstream
 	TAGKEYS(                        XK_1,                      0)
 	TAGKEYS(                        XK_2,                      1)
 	TAGKEYS(                        XK_3,                      2)
@@ -93,6 +94,20 @@ static Key keys[] = {
 	TAGKEYS(                        XK_7,                      6)
 	TAGKEYS(                        XK_8,                      7)
 	TAGKEYS(                        XK_9,                      8)
+=======
+	{ MODKEY,                       XK_minus,  setgaps,        {.i = -1 } },
+	{ MODKEY,                       XK_equal,  setgaps,        {.i = +1 } },
+	{ MODKEY|ShiftMask,             XK_equal,  setgaps,        {.i = 0  } },
+	TAGKEYS(                        XK_F1,                     0)
+	TAGKEYS(                        XK_F2,                     1)
+	TAGKEYS(                        XK_F3,                     2)
+	TAGKEYS(                        XK_F4,                     3)
+	TAGKEYS(                        XK_F5,                     4)
+	TAGKEYS(                        XK_F6,                     5)
+	TAGKEYS(                        XK_F7,                     6)
+	TAGKEYS(                        XK_F8,                     7)
+	TAGKEYS(                        XK_F9,                     8)
+>>>>>>> Stashed changes
 	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
 };
 
