@@ -10,6 +10,8 @@ static const char *fonts[]          = {
     "Source Code Pro:size=10",
     "FontAwesome:size=10"
 };
+static const int vertpad            = 10;       /* vertical padding of bar */
+static const int sidepad            = 10;       /* horizontal padding of bar */
 static const char dmenufont[]       = "monospace:size=10";
 static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
